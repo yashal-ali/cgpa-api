@@ -26,5 +26,11 @@ def predict():
     except Exception as e:
         return jsonify({'error': str(e)})
 
+@app.route('/', methods=['GET'])
+def home():
+        return "<h1>Flask App</h1>"
+
+
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False)
+    app.run()
+
