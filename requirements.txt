@@ -82,7 +82,6 @@ six==1.16.0
 smmap==5.0.0
 soupsieve==2.3.2.post1
 stack-data==0.3.0
-streamlit==1.10.0
 terminado==0.15.0
 threadpoolctl==3.1.0
 tinycss2==1.1.1
@@ -100,5 +99,10 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.6.1
 zipp==3.8.0
+flask
+flask-cors
+numpy
+scikit-learn
+gunicorn
 
 
